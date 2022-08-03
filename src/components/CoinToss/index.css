@@ -1,0 +1,45 @@
+.bg-gold {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.coin-bg {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-image {
+  width: 150px;
+}
+.game-heading {
+  color: #a35200;
+}
+.head-tail {
+  color: #334155;
+}
+button {
+  margin-top: 20px;
+  background-color: #e2a139;
+  border-width: 0px;
+  color: #a35200;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.scores {
+  display: flex;
+  align-items: space-between;
+  font-family: "Roboto";
+}
+.total {
+  margin-left: 40px;
+  margin-right: 20px;
+}
